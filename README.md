@@ -82,11 +82,11 @@ After saving your work, create a shareable link and submit the link to <https://
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-VBA CODE 
+## VBA CODE 
 
 
-Sub Ticker()
-  For Each ws In Worksheets
+    Sub Ticker()
+    For Each ws In Worksheets
     
     'Sets an initial variable for holding the Ticker ID
     Dim Ticker As String
@@ -266,8 +266,8 @@ Sub Ticker()
             ws.Range("Q" & Summary_Table_Row).Value = Greatest_Total_Value
 
         End If
-    Next i
-  Next ws
+      Next i
+     Next ws
 
-End Sub
+    End Sub
 
